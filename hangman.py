@@ -3,7 +3,7 @@ import time
 name = raw_input("Hi! What's your name? ")
 
 # I don't know how to add a comma after name??
-print "Hey, " + name,"wanna play hangman with me?"
+print "Hey " + name,"wanna play hangman with me?"
 print ""
 time.sleep(1)
 print "Guess some letters..."
