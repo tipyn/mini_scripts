@@ -4,19 +4,14 @@ name = raw_input("Hi! What's your name? ")
 
 # I don't know how to add a comma after name??
 print "Hey, " + name,"wanna play hangman with me?"
-
 print ""
-
-# wait for 1 second
 time.sleep(1)
-
 print "Guess some letters..."
 time.sleep(0.5)
 
 # secret word
 word = "chicken"
 
-#creates an variable with an empty value
 guesses = ''
 turns = 10
 
@@ -37,7 +32,7 @@ while turns > 0:
     # ask the player to guess a character
     guess = raw_input("guess a character:")
 
-    # set the players guess to guesses
+    # add the players guess to guesses
     guesses += guess
 
     if guess not in word:
