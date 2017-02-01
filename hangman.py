@@ -40,19 +40,9 @@ while turns > 0:
     # set the players guess to guesses
     guesses += guess
 
-    # if the guess is not found in the secret word
     if guess not in word:
-
-     # turns counter decreases with 1 (now 9)
         turns -= 1
-
         print "nope"
-
-    # how many turns are left
         print "You have", + turns, 'more guesses'
-
-    # if the turns are equal to zero
         if turns == 0:
-
-        # print "You Loose"
-            print "You Loose"
+            print "Gosh darn it."
